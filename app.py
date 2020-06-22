@@ -8,4 +8,5 @@ app.config["DEBUG"] = True
 def home():
     return "<h1>Flask App</h1>"
 
-app.run()
+if __name__ == "__main__":
+    app.run()
