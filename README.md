@@ -1,12 +1,12 @@
 # Building & Running simple-flask-webapp container
 
-** To build: **
+**To build:**
 
 ```$ docker build . -t simple-flask-webapp```
 
 within the directory of the Dockerfile
 
-** To run container: ** 
+**To run container:** 
 
 ```$ docker run -p 8081:8080 simple-flask-webapp```
 
